@@ -1,0 +1,75 @@
+/* Home Page*/
+
+h1 {
+  padding: 9px;
+  color: #f59f05;
+}
+
+.welcome {
+  margin-left: 80%;
+}
+
+.homepage-face {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  padding-left: 60px;
+  grid-template-rows: auto 1fr auto;
+  min-height: 65vh;
+}
+
+.search {
+  margin-left: 723px;
+}
+
+.homepage-face img {
+  width: 90%;
+}
+
+.Main-content {
+  display: flex;
+}
+
+.Main-elements {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 8px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/* Links*/
+
+.active {
+  text-decoration: underline;
+}
+
+.hello {
+  padding-bottom: 20px;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.cta__home {
+  background-color: #f59f05;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.cta__home2 {
+  background-color: #f59f05;
+  padding-left: 36px;
+  padding-right: 36px;
+}
