@@ -19,7 +19,8 @@ h1 {
 }
 
 .search {
-  margin-left: 723px;
+  margin-left: 735px;
+  padding: 5px;
 }
 
 .homepage-face img {
@@ -44,32 +45,32 @@ nav li {
   padding: 8px;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
-
 /* Links*/
+
+.welcome__cta {
+  color: black;
+}
 
 .active {
   text-decoration: underline;
 }
 
-.hello {
+.top-footer {
   padding-bottom: 20px;
   background-color: black;
   margin-bottom: 50px;
 }
 
 .cta__home {
+  color: black;
   background-color: #f59f05;
+  padding: 2px;
   padding-left: 36px;
   padding-right: 36px;
 }
 
-.cta__home2 {
-  background-color: #f59f05;
-  padding-left: 36px;
-  padding-right: 36px;
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
