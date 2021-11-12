@@ -151,17 +151,12 @@ h1 {
 /* Mens&Bestseller*/
 
 .h2-mens {
-  max-width: 200px;
-  margin: 0 659px;
 }
 
 .mens-face {
-  display: grid;
-  grid-template-columns: repeat(2, 4fr);
-  min-height: 70vh;
 }
 .mens-face img {
-  width: 50%;
+  width: 40%;
 }
 
 /* Links*/
