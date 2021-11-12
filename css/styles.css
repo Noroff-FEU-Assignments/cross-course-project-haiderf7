@@ -151,12 +151,14 @@ h1 {
 /* Mens&Bestseller*/
 
 .h2-mens {
+  text-align: center;
 }
 
 .mens-face {
 }
+
 .mens-face img {
-  width: 40%;
+  width: 50%;
 }
 
 /* Links*/
