@@ -84,23 +84,27 @@ h1 {
 /*Sign In*/
 
 .h2-signin {
-  font-size: 1, 5em;
-  text-align: center;
-  padding-left: 50px;
+  width: 171px;
+  margin: 21px auto;
 }
 
 .c-account {
-  text-align: center;
-  padding-left: 50px;
+  width: 121px;
+  margin: 21px auto;
+  border: 1px solid #707070;
 }
 
 .h1-signin {
-  text-align: center;
+  width: 226px;
+  margin: 21px auto;
+  color: black;
 }
 
 .signin-input {
-  display: table-caption;
-  margin-left: 700px;
+  width: 200px;
+  margin: 0 auto;
+  display: grid;
+  margin: 0 auto;
 }
 
 .log-in {
@@ -109,6 +113,7 @@ h1 {
   color: black;
   background-color: #f59f05;
   display: grid;
+  padding: 5px;
 }
 
 .f-passord {
@@ -126,7 +131,7 @@ h1 {
   min-height: 55vh;
 }
 
-.about-us-p{
+.about-us-p {
   max-width: 500px;
   margin: auto;
   padding-bottom: 30px;
@@ -145,15 +150,18 @@ h1 {
 
 /* Mens&Bestseller*/
 
+.h2-mens {
+  max-width: 200px;
+  margin: 0 659px;
+}
+
 .mens-face {
   display: grid;
   grid-template-columns: repeat(2, 4fr);
-  padding-left: 60px;
-  grid-template-rows:
-  min-height: 65vh;
+  min-height: 70vh;
 }
 .mens-face img {
-  width: 60%;
+  width: 50%;
 }
 
 /* Links*/
