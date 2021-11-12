@@ -155,6 +155,8 @@ h1 {
 }
 
 .mens-face {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .mens-face img {
