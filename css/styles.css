@@ -155,12 +155,17 @@ h1 {
 }
 
 .mens-face {
+  margin: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .mens-face img {
   width: 50%;
+}
+
+.products {
+  display: flex;
 }
 
 /* Links*/
