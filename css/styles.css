@@ -161,11 +161,28 @@ h1 {
 }
 
 .mens-face img {
-  width: 50%;
+  width: 100%;
 }
 
 .products {
   display: flex;
+  width: 100%;
+}
+
+.product-img-men {
+  width: 50%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.product-specific {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-wiev {
+  margin-top: auto;
+  padding: 10px;
 }
 
 /* Links*/
